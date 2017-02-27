@@ -13,6 +13,7 @@
 		EF4D17711E63924A006F9541 /* BrownieCalculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF4D176F1E63924A006F9541 /* BrownieCalculator.xcdatamodeld */; };
 		EF4D17731E63924A006F9541 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4D17721E63924A006F9541 /* Assets.xcassets */; };
 		EF4D17761E63924A006F9541 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF4D17741E63924A006F9541 /* LaunchScreen.storyboard */; };
+		EF8172341E646C6700174CE1 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8172331E646C6700174CE1 /* ViewControllerExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EF4D17721E63924A006F9541 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF4D17751E63924A006F9541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF4D17771E63924A006F9541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF8172331E646C6700174CE1 /* ViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				EF4D17681E63924A006F9541 /* AppDelegate.swift */,
 				EF4D176A1E63924A006F9541 /* ViewController.swift */,
+				EF8172331E646C6700174CE1 /* ViewControllerExtension.swift */,
 				EF4D176C1E63924A006F9541 /* Main.storyboard */,
 				EF4D17721E63924A006F9541 /* Assets.xcassets */,
 				EF4D17741E63924A006F9541 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF8172341E646C6700174CE1 /* ViewControllerExtension.swift in Sources */,
 				EF4D17711E63924A006F9541 /* BrownieCalculator.xcdatamodeld in Sources */,
 				EF4D176B1E63924A006F9541 /* ViewController.swift in Sources */,
 				EF4D17691E63924A006F9541 /* AppDelegate.swift in Sources */,
@@ -306,6 +310,7 @@
 				EF4D177C1E63924A006F9541 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
